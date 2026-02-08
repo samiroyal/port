@@ -12,7 +12,7 @@ export default function About() {
         <div className="max-w-3xl mx-auto px-6 space-y-24">
           
           <article>
-            <span className="font-mono text-primary text-xs mb-4 block">01 / ON GROWTH</span>
+            <span className="font-mono text-primary text-xs mb-4 block">ON GROWTH</span>
             <h2 className="text-3xl font-display font-medium mb-6">Growth is a system, not a hack.</h2>
             <div className="prose prose-invert prose-lg text-muted-foreground">
               <p>
@@ -28,7 +28,7 @@ export default function About() {
           </article>
 
           <article>
-            <span className="font-mono text-primary text-xs mb-4 block">02 / ON COMMUNITY</span>
+            <span className="font-mono text-primary text-xs mb-4 block">ON COMMUNITY</span>
             <h2 className="text-3xl font-display font-medium mb-6">Communities are infrastructure.</h2>
             <div className="prose prose-invert prose-lg text-muted-foreground">
               <p>
@@ -44,7 +44,7 @@ export default function About() {
           </article>
 
           <article>
-            <span className="font-mono text-primary text-xs mb-4 block">03 / ON TRUST</span>
+            <span className="font-mono text-primary text-xs mb-4 block">ON TRUST</span>
             <h2 className="text-3xl font-display font-medium mb-6">Trust is the only asset.</h2>
             <div className="prose prose-invert prose-lg text-muted-foreground">
               <p>

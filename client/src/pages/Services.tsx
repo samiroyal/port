@@ -1,9 +1,9 @@
 import { PageHeader, Section } from "@/components/Section";
-import { useServices } from "@/hooks/use-services";
+import { services } from "@/data/services";
 import { Check } from "lucide-react";
 
 export default function Services() {
-  const { data: services, isLoading } = useServices();
+  const isLoading = false;
 
   return (
     <div className="min-h-screen">
