@@ -5,6 +5,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Layout } from "@/components/layout/Layout";
 import NotFound from "@/pages/not-found";
+import { Analytics } from "@vercel/analytics/react";
+
 
 import Home from "@/pages/Home";
 import About from "@/pages/About";
@@ -37,6 +39,7 @@ function App() {
       <TooltipProvider>
         <Toaster />
         <Router />
+        <Analytics/>
       </TooltipProvider>
     </QueryClientProvider>
   );
