@@ -6,10 +6,10 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-2">
           <div className="w-8 h-8 bg-white text-black flex items-center justify-center font-display font-bold text-lg mb-6">
-            J
+            JSB
           </div>
           <p className="text-muted-foreground max-w-sm">
-            Turning attention into trust, communities into infrastructure, and growth into long-term value.
+            Turning attention into trust, communities into infrastructure, and growth into long term value.
           </p>
         </div>
 

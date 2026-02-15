@@ -7,7 +7,7 @@ export const services = [
     features: [
       "Onboarding pipelines",
       "Contributor frameworks",
-      "Role-based community design",
+      "Role based community design",
       "Retention loops",
     ],
   },
@@ -24,10 +24,10 @@ export const services = [
     ],
   },
   {
-    id: "research-signal",
+    id: "research signal",
     title: "Research & Signal",
     description:
-      "Deep-dive analysis on competitive landscapes and market positioning.",
+      "Deep dive analysis on competitive landscapes and market positioning.",
     features: [
       "Market mapping",
       "Competitor analysis",

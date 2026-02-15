@@ -19,21 +19,21 @@ export default function Contact() {
             </p>
             
             <div className="space-y-6">
-              <a href="mailto:hello@jsb.xyz" className="flex items-center gap-4 text-xl hover:text-primary transition-colors group p-4 border border-white/5 hover:border-primary/30 bg-secondary/10">
+              <a href="" className="flex items-center gap-4 text-xl hover:text-primary transition-colors group p-4 border border-white/5 hover:border-primary/30 bg-secondary/10">
                 <Mail className="w-6 h-6 text-muted-foreground group-hover:text-primary" />
-                <span>hello@jsb.xyz</span>
+                <span>Email@jsb</span>
                 <ArrowUpRight className="ml-auto w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
               </a>
               
-              <a href="https://twitter.com" target="_blank" className="flex items-center gap-4 text-xl hover:text-primary transition-colors group p-4 border border-white/5 hover:border-primary/30 bg-secondary/10">
+              <a href="https://x.com/JSB_Web3X" target="_blank" className="flex items-center gap-4 text-xl hover:text-primary transition-colors group p-4 border border-white/5 hover:border-primary/30 bg-secondary/10">
                 <div className="w-6 h-6 flex items-center justify-center font-display font-bold text-muted-foreground group-hover:text-primary">X</div>
-                <span>@jsb_systems</span>
+                <span>@JSB_Web3X</span>
                 <ArrowUpRight className="ml-auto w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
               </a>
 
-              <a href="https://t.me" target="_blank" className="flex items-center gap-4 text-xl hover:text-primary transition-colors group p-4 border border-white/5 hover:border-primary/30 bg-secondary/10">
+              <a href="https://t.me/JSB_Web3X" target="_blank" className="flex items-center gap-4 text-xl hover:text-primary transition-colors group p-4 border border-white/5 hover:border-primary/30 bg-secondary/10">
                 <MessageSquare className="w-6 h-6 text-muted-foreground group-hover:text-primary" />
-                <span>@jsb_telegram</span>
+                <span>@JSB_Web3X TG</span>
                 <ArrowUpRight className="ml-auto w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
               </a>
             </div>
@@ -44,7 +44,7 @@ export default function Contact() {
             <ul className="space-y-4 text-sm text-muted-foreground">
               <li className="flex justify-between border-b border-white/5 pb-4">
                 <span>Advisory / Retainer</span>
-                <span className="text-white">2 Spots Open</span>
+                <span className="text-white">Available</span>
               </li>
               <li className="flex justify-between border-b border-white/5 pb-4">
                 <span>Project Audit</span>
@@ -52,7 +52,7 @@ export default function Contact() {
               </li>
               <li className="flex justify-between border-b border-white/5 pb-4">
                 <span>Full-time Roles</span>
-                <span className="text-white">Closed</span>
+                <span className="text-white">Available</span>
               </li>
             </ul>
           </div>

@@ -3,35 +3,35 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
-const CATEGORIES = ["ALL", "PROJECTS", "RESEARCH", "GROWTH SYSTEMS", "THREADS"];
+const CATEGORIES = ["ALL", "PROJECTS", "RESEARCH", "TESTING", "THREADS"];
 
 const PROJECTS = [
   {
     id: "1",
-    title: "Protocol Community System",
+    title: "MONEY MASTERS NFT",
     description:
-      "Designed and operated a contributor pipeline for a mid-cap DeFi protocol.",
+      "Designed and operated a valuable Community for the project.",
     category: "PROJECTS",
   },
   {
     id: "2",
     title: "Token Narrative Research",
     description:
-      "Market positioning and narrative research for a token launch.",
+      "Market positioning and narrative research for 1PC token launch.",
     category: "RESEARCH",
   },
   {
     id: "3",
-    title: "Growth Automation Framework",
+    title: "TESTING FOR A DEpin PROJECT",
     description:
       "Automated contributor onboarding and internal coordination systems.",
-    category: "GROWTH SYSTEMS",
+    category: "TESTING",
   },
   {
     id: "4",
     title: "Signal Threads",
     description:
-      "High-signal research threads focused on protocol positioning.",
+      "High signal research threads focused on protocol positioning.",
     category: "THREADS",
   },
 ];

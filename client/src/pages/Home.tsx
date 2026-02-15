@@ -23,7 +23,7 @@ export default function Home() {
               OVER <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/40">HYPE.</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed mb-12 border-l border-primary/50 pl-6">
-              I help Web3 projects turn attention into trust, communities into infrastructure, and growth into long-term value.
+              I help Web3 projects turn attention into trust, communities into infrastructure, and growth into long term value.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -44,8 +44,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border border-white/5">
             {[
               { icon: Terminal, title: "Community Systems", desc: "Automated workflows and engagement loops." },
-              { icon: Radio, title: "Token Comms", desc: "Narrative design and signal-heavy communication." },
-              { icon: BarChart2, title: "Growth Strategy", desc: "Data-driven acquisition and retention." },
+              { icon: Radio, title: "Token Comms", desc: "Narrative design and signal heavy communication." },
+              { icon: BarChart2, title: "Growth Strategy", desc: "Data driven acquisition and retention." },
               { icon: Shield, title: "Trust Building", desc: "Positioning for longevity and institutional confidence." }
             ].map((service, i) => (
               <div key={i} className="bg-background p-8 hover:bg-secondary/50 transition-colors group">
@@ -74,8 +74,8 @@ export default function Home() {
             </h2>
             <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
               Most Web3 growth is mimetic and temporary. I build systems that endure. 
-              By focusing on high-signal communication and infrastructure-grade community architecture, 
-              we attract operators, builders, and long-term holders.
+              By focusing on high signal communication and infrastructure grade community architecture, 
+              we attract operators, builders, and long term holders.
             </p>
             <Link href="/about" className="text-primary hover:text-white transition-colors font-medium inline-flex items-center gap-2">
               READ MY PHILOSOPHY <ArrowRight className="w-4 h-4" />

@@ -18,7 +18,7 @@ export default function About() {
               <p>
                 In Web3, "growth" is often confused with "hype". Hype is useful for liquidity events, 
                 but toxic for community longevity. Sustainable growth comes from clear value capture mechanisms, 
-                high-signal communication loops, and user segmentation.
+                high signal communication loops, and user segmentation.
               </p>
               <p>
                 I don't sell viral tweets. I build the engines that capture the attention those tweets generate 
@@ -32,7 +32,7 @@ export default function About() {
             <h2 className="text-3xl font-display font-medium mb-6">Communities are infrastructure.</h2>
             <div className="prose prose-invert prose-lg text-muted-foreground">
               <p>
-                A Discord server isn't a community. It's a waiting room. A real community is infrastructure—it performs work. 
+                A Discord server isn't a community. It's a waiting room. A real community is infrastructure it performs work. 
                 Whether that's decentralized support, governance debate, or content production, 
                 members must have a clear "job" to do within the network.
               </p>

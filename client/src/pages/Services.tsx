@@ -9,7 +9,7 @@ export default function Services() {
     <div className="min-h-screen">
       <PageHeader 
         title="Services" 
-        subtitle="Specialized operational support for protocols and high-signal projects." 
+        subtitle="Specialized operational support for protocols and high signal projects." 
       />
 
       <Section>

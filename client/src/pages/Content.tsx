@@ -1,5 +1,4 @@
 import { PageHeader, Section } from "@/components/Section";
-import { Link } from "wouter";
 import { ArrowRight } from "lucide-react";
 
 const POSTS = [
@@ -8,24 +7,24 @@ const POSTS = [
     title: "Systems > Hype",
     excerpt: "Why sustainable Web3 growth comes from infrastructure, not virality.",
     category: "Growth Systems",
-    slug: "systems-over-hype",
-    publishedAt: "2025-01-01",
+    url: "https://x.com/JSB_Web3X/status/2021369625217466674?s=20",
+    publishedAt: "2026-02-10",
   },
   {
     id: 2,
-    title: "Community Is Infrastructure",
-    excerpt: "Communities are not audiences — they are operating systems.",
-    category: "Community",
-    slug: "community-is-infrastructure",
-    publishedAt: "2025-02-01",
+    title: "On-Chain Observations Around WEED, SHOWER, and JailedDotFun",
+    excerpt: "While reviewing on-chain activity related to the game @Jaileddotfun.",
+    category: "RESEARCH",
+    url: "https://x.com/JSB_Web3X/status/2015225628899819603?s=201",
+    publishedAt: "2026-01-25",
   },
   {
     id: 3,
     title: "Token Communication Mistakes",
     excerpt: "Why most TGEs fail before launch.",
     category: "Token Design",
-    slug: "token-communication-mistakes",
-    publishedAt: "2025-03-01",
+    url: "https://x.com/JSB_Web3X/status/2023151990683938850?s=20",
+    publishedAt: "2026-02-15",
   },
 ];
 
@@ -41,7 +40,14 @@ export default function Content() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="divide-y divide-white/5 border-t border-b border-white/5">
             {POSTS.map((post) => (
-              <Link key={post.id} href={`/content/${post.slug}`} className="block group">
+              <a
+  key={post.id}
+  href={post.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block group"
+>
+
                 <div className="py-12 hover:bg-white/5 transition px-4 -mx-4">
                   <div className="flex gap-4 text-xs font-mono mb-4">
                     <span className="text-primary">
@@ -67,7 +73,7 @@ export default function Content() {
                     READ ARTICLE <ArrowRight className="w-4 h-4" />
                   </div>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
         </div>

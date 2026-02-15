@@ -41,10 +41,10 @@ export function Navigation() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link href="/" className="group flex items-center gap-2">
             <div className="w-8 h-8 bg-white text-black flex items-center justify-center font-display font-bold text-lg">
-              J
+              JSB
             </div>
             <span className="font-mono text-sm tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-x-2 group-hover:translate-x-0">
-              J.S.B
+              WEB3X
             </span>
           </Link>
 
@@ -69,7 +69,7 @@ export function Navigation() {
               </Link>
             ))}
             <a 
-              href="https://twitter.com" 
+              href="https://x.com/JSB_Web3X" 
               target="_blank" 
               className="ml-4 px-4 py-2 text-xs font-mono border border-white/10 hover:border-primary/50 hover:bg-primary/5 transition-colors flex items-center gap-2 text-muted-foreground hover:text-primary"
             >
