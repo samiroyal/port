@@ -14,12 +14,12 @@ export default function Contact() {
           <div>
             <h3 className="text-2xl font-display mb-6">Let's build systems.</h3>
             <p className="text-muted-foreground text-lg leading-relaxed mb-12">
-              I am currently accepting new clients for Q4 2024. 
+              I am currently accepting new clients for Q1 2026. 
               If you are a serious team looking to build sustainable community infrastructure, let's talk.
             </p>
             
             <div className="space-y-6">
-              <a href="" className="flex items-center gap-4 text-xl hover:text-primary transition-colors group p-4 border border-white/5 hover:border-primary/30 bg-secondary/10">
+              <a href="solanaking37@gmail.com" className="flex items-center gap-4 text-xl hover:text-primary transition-colors group p-4 border border-white/5 hover:border-primary/30 bg-secondary/10">
                 <Mail className="w-6 h-6 text-muted-foreground group-hover:text-primary" />
                 <span>Email@jsb</span>
                 <ArrowUpRight className="ml-auto w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
